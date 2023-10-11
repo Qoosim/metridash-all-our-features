@@ -1,10 +1,10 @@
 import React from 'react';
-import { AiOutlineGlobal, AiOutlineOrderedList, AiOutlineCloudDownload } from 'react-icons/ai';
+import { AiOutlineCloudDownload, AiOutlineGlobal, AiOutlineOrderedList } from 'react-icons/ai';
 import { BiDownload, BiSearch } from 'react-icons/bi';
-import { BsCcCircle, BsShare, BsMic } from 'react-icons/bs';
-import { LiaSyncSolid, LiaImage, LiaQuoteRightSolid } from 'react-icons/lia';
-import { PiPencilSimpleLineBold, PiPencilSimpleDuotone } from 'react-icons/pi';
+import { BsCcCircle, BsMic, BsShare } from 'react-icons/bs';
 import { FiUpload } from 'react-icons/fi';
+import { LiaImage, LiaQuoteRightSolid, LiaSyncSolid } from 'react-icons/lia';
+import { PiPencilSimpleDuotone, PiPencilSimpleLineBold } from 'react-icons/pi';
 import { TbDrone } from 'react-icons/tb';
 import Card from '../Card/Card';
 import styles from './homepage.module.css';
@@ -14,7 +14,7 @@ const HomePage = () => {
     <div className="flex flex-col items-center py-8">
       <div className="flex flex-col items-center gap-3">
         <div>
-          <a href="#" className="text-blue-500 font-bold">Why choose Otter.ai?</a>
+          <a href="/home" className="text-blue-500 font-bold">Why choose Otter.ai?</a>
         </div>
         <h1 className="text-[2.5rem] font-bold">All our features</h1>
         <div className={`flex flex-col items-center pb-16 ${styles.features}`}>
