@@ -1,5 +1,5 @@
 ## All Our Features
-### Live Demo
+### Home Page
 
 ![screenshot](/public/our-features.png)
 
